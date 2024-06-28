@@ -473,82 +473,237 @@ h1 {
   }
 }
 
-.pfs {
-  height: 100vh;
-  background: #f4f4f4;
-}
 
-.portfolio_wrap {
-  display: flex;
-  position: relative;
-  width: 1440px;
-  height: 100vh;
-  margin: 0 auto;
-  overflow: hidden;
-  justify-content: space-between;
-  align-items: center;
+.sec4{
 
-  .port-img {
-    display: flex;
-    align-items: center;
-    width: 60%;
-    height: 100%;
-
-    .imges-wrap {
-      width: 90%;
-      height: 80%;
-      border-radius: 30px;
-      // box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-      // overflow: hidden;
-
-      .slide-cover {
-        position: relative;
-        border-radius: 15px;
-        overflow: hidden;
-
-        img {
-          max-width: 100%;
+  .pfs {
+      height: 100vh;
+      background: #f4f4f4;
+    }
+  
+    .portfolio_wrap {
+      display: flex;
+      position: relative;
+      width: 1440px;
+      height: 100vh;
+      margin: 0 auto;
+      overflow: hidden;
+      justify-content: space-between;
+      align-items: center;
+  
+      .port-img {
+        display: flex;
+        align-items: center;
+        width: 60%;
+        height: 100%;
+  
+        .imges-wrap {
+          width: 90%;
+          height: 90%;
+          border-radius: 25px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          overflow: hidden;
+  
+          .slide-cover {
+            position: relative;
+            border-radius: 15px;
+            overflow: hidden;
+  
+            img {
+              max-width: 100%;
+            }
+  
+            .img {
+              transition: all 3s;
+            }
+  
+            &::after {
+              content: " ";
+              display: block;
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              background-color: rgba(0, 0, 0, 0.3);
+            }
+  
+            &:hover img {
+              transform: translateY(-83.5%);
+              transition: all 20s;
+            }
+  
+            &:hover::after {
+              transition: all 0.2s;
+              background-color: rgba(0, 0, 0, 0.1);
+            }
+          }
+  
         }
-
-        .img {
-          transition: all 3s;
-        }
-
-        &::after {
-          content: " ";
-          display: block;
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          background-color: rgba(0, 0, 0, 0.3);
-        }
-
-        &:hover img {
-          transform: translateY(-83.5%);
-          transition: all 20s;
-        }
-
-        &:hover::after {
-          transition: all 0.2s;
-          background-color: rgba(0, 0, 0, 0.1);
+  
+        .monami {
+          background: url('../../images/portfolio/portfolio1.jpg') no-repeat 0 0;
+          background-size: cover;
         }
       }
-
     }
 
-    .monami {
-      background: url('../../images/portfolio/portfolio1.jpg') no-repeat 0 0;
-      background-size: cover;
-    }
-  }
 }
 
 
 .sec5 {
   background: #f4f4f4 url(../../images/portfolio/portfolio2.jpg) no-repeat 50% 50% / contain;
+
+  .pfs {
+      height: 100vh;
+      background: #f4f4f4;
+    }
+  
+    .portfolio_wrap {
+      display: flex;
+      position: relative;
+      width: 1440px;
+      height: 100vh;
+      margin: 0 auto;
+      overflow: hidden;
+      justify-content: space-between;
+      align-items: center;
+  
+      .port-img {
+        display: flex;
+        align-items: center;
+        width: 60%;
+        height: 100%;
+  
+        .imges-wrap {
+          width: 90%;
+          height: 90%;
+          border-radius: 25px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          overflow: hidden;
+  
+          .slide-cover {
+            position: relative;
+            border-radius: 15px;
+            overflow: hidden;
+  
+            img {
+              max-width: 100%;
+            }
+  
+            .img {
+              transition: all 3s;
+            }
+  
+            &::after {
+              content: " ";
+              display: block;
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              background-color: rgba(0, 0, 0, 0.3);
+            }
+  
+            &:hover img {
+              transform: translateY(-58%);
+              transition: all 10s;
+            }
+  
+            &:hover::after {
+              transition: all 0.2s;
+              background-color: rgba(0, 0, 0, 0.1);
+            }
+          }
+  
+        }
+  
+        .monami {
+          background: url('../../images/portfolio/portfolio1.jpg') no-repeat 0 0;
+          background-size: cover;
+        }
+      }
+    }
 }
+
+
+.sec6 {
+  background: #f4f4f4 url(../../images/portfolio/portfolio2.jpg) no-repeat 50% 50% / contain;
+
+  .pfs {
+    height: 100vh;
+    background: #f4f4f4;
+  }
+
+  .portfolio_wrap {
+    display: flex;
+    position: relative;
+    width: 1440px;
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+
+    .port-img {
+      display: flex;
+      align-items: center;
+      width: 60%;
+      height: 100%;
+
+      .imges-wrap {
+        width: 90%;
+        height: 90%;
+        border-radius: 25px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        overflow: hidden;
+
+        .slide-cover {
+          position: relative;
+          border-radius: 15px;
+          overflow: hidden;
+
+          img {
+            max-width: 100%;
+          }
+
+          .img {
+            transition: all 3s;
+          }
+
+          &::after {
+            content: " ";
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.3);
+          }
+
+          &:hover img {
+            transform: translateY(-58%);
+            transition: all 10s;
+          }
+
+          &:hover::after {
+            transition: all 0.2s;
+            background-color: rgba(0, 0, 0, 0.1);
+          }
+        }
+
+      }
+
+      .monami {
+        background: url('../../images/portfolio/portfolio1.jpg') no-repeat 0 0;
+        background-size: cover;
+      }
+    }
+  }
+}
+
 
 .port-texts {
   position: relative;
