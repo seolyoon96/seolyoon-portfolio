@@ -516,6 +516,16 @@ h1 {
   margin-bottom: 15px;
 }
 
+.sec4 .port-texts .text-info .text-head .pf-logo {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.sec4 .port-texts .text-info .text-head .pf-logo img {
+  width: 30%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 .sec4 .pfs {
   height: 100vh;
   background: #f4f4f4;
@@ -580,6 +590,16 @@ h1 {
 .sec5 {
   background: #f4f4f4 url(../../images/portfolio/portfolio2.jpg) no-repeat 50% 50%/contain;
 }
+.sec5 .port-texts .text-info .text-head .pf-logo {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.sec5 .port-texts .text-info .text-head .pf-logo img {
+  width: 20%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 .sec5 .pfs {
   height: 100vh;
   background: #f4f4f4;
@@ -641,8 +661,15 @@ h1 {
   background-size: cover;
 }
 
-.sec6 {
-  background: #f4f4f4 url(../../images/portfolio/portfolio2.jpg) no-repeat 50% 50%/contain;
+.sec6 .port-texts .text-info .text-head .pf-logo {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.sec6 .port-texts .text-info .text-head .pf-logo img {
+  width: 30%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .sec6 .pfs {
   height: 100vh;
