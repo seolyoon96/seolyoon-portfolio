@@ -310,6 +310,9 @@ legend {
   text-decoration: none;
   font-weight: 700;
 }
+#header .menu li a:hover {
+  color: #FDCB6E;
+}
 
 .shapes {
   position: relative;
@@ -447,7 +450,7 @@ h1 {
   margin-bottom: 20px;
 }
 .sec2 .about-txt-wrap .abtxt .about-intro {
-  line-height: 30px;
+  line-height: 32px;
   color: #151515;
 }
 .sec2 .about_tab-wrap {
@@ -666,7 +669,7 @@ h1 {
   margin-bottom: 10px;
 }
 .sec6 .port-texts .text-info .text-head .pf-logo img {
-  width: 30%;
+  width: 25%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -788,7 +791,7 @@ h1 {
 }
 .port-texts .text-info .page-info {
   position: absolute;
-  top: 55%;
+  top: 50%;
   left: 0;
 }
 .port-texts .text-info .page-info p {

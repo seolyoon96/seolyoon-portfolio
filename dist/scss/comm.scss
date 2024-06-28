@@ -49,6 +49,10 @@
     color: rgb(0, 0, 0);
     text-decoration: none;
     font-weight: 700;
+
+    &:hover{
+      color: #FDCB6E;
+    }
   }
 }
 
@@ -388,7 +392,7 @@ h1 {
       }
 
       .about-intro {
-        line-height: 30px;
+        line-height: 32px;
         color: #151515;
       }
     }
@@ -665,7 +669,7 @@ h1 {
           margin-bottom: 10px;
     
           img {
-            width: 30%;
+            width: 25%;
             height: 100%;
             object-fit: cover;
           }
@@ -812,7 +816,7 @@ h1 {
 
     .page-info {
       position: absolute;
-      top: 55%;
+      top: 50%;
       left: 0;
 
       p {
