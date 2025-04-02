@@ -443,11 +443,33 @@ h1 {
 .sec2 .about-txt-wrap .abtxt {
   margin-top: 40px;
 }
+@keyframes animate {
+  10% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
 .sec2 .about-txt-wrap .abtxt .about-me {
   font-weight: 700;
   font-size: 30px;
   color: #25216d;
   margin-bottom: 20px;
+  background: linear-gradient(90deg, #005ffe, #ffe5e3, #ffcc57);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 5s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
 }
 .sec2 .about-txt-wrap .abtxt .about-intro {
   line-height: 32px;
@@ -517,6 +539,58 @@ h1 {
 }
 .sec2 .develop {
   margin-bottom: 15px;
+}
+
+.sec3 {
+  background: #f4f4f4;
+  min-height: 100vh;
+  overflow: auto;
+}
+.sec3 #skill {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 300%);
+  min-height: 100%;
+  overflow: visible;
+}
+.sec3 #skill .skill-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.sec3 #skill .skill-wrap .skill-in {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.sec3 #skill .skill-wrap .skill-in img {
+  width: 100px;
+  height: auto;
+}
+.sec3 #skill .skill-wrap .skill-in:hover img {
+  transform: translateY(-20px);
+  transition: all 0.5s;
+}
+.sec3 #skill .skill-wrap .skill-in span {
+  margin-top: 10px;
+}
+.sec3 #skill .skill-wrap .skill-in:hover span {
+  transform: translateY(10px);
+  transition: all 0.5s;
+}
+.sec3 #skill .skill-wrap .skill-in:hover::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  background-image: url("github/seolyoon-portfolio/images/effect01.png");
+  background-size: cover;
 }
 
 .sec4 .port-texts .text-info .text-head .pf-logo {
@@ -859,7 +933,8 @@ h1 {
 }
 .pfb2 .but:hover {
   text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 0, 0, 0.2);
+  background: #fdcb6e;
+  color: #fff;
 }
 .pfb2 .but::after {
   position: absolute;
